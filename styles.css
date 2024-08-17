@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.card {
+    background-color: #282b2e;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    padding-top: 20px; /* Add some padding at the top */
+}
+
+.round-image {
+    width: 70px; /* Set the width */
+    height: 70px; /* Set the height, same as width for a perfect circle */
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
+.nom{
+    color: aliceblue; /* Different colors for testing */
+    width: 100%; /* Ensure the text spans the full width of the card */
+    text-align: center; /* Center the text horizontally */
+    margin: 5px 0; /* Add some margin between the elements */
+    font-size: 15px;
+}
+.location {
+    color: rgb(168, 250, 5); /* Different colors for testing */
+    width: 100%; /* Ensure the text spans the full width of the card */
+    text-align: center; /* Center the text horizontally */
+    margin: 5px 0; /* Add some margin between the elements */
+    font-size: 7px;
+}
+.poste {
+    color: aliceblue; /* Different colors for testing */
+    width: 100%; /* Ensure the text spans the full width of the card */
+    text-align: center; /* Center the text horizontally */
+    margin: 5px 0; /* Add some margin between the elements */
+    font-size: 10px;
+}

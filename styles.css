@@ -47,3 +47,17 @@ body {
     margin: 5px 0; /* Add some margin between the elements */
     font-size: 10px;
 }
+.button {
+    background-color: #3b3f42;
+    margin: 5px;
+    height: 50px;
+    width: 60%;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 8px;
+    text-align: center;
+    display: flex; /* Enables flexbox for the div */
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    font-weight: bold;
+}
